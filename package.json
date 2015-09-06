@@ -1,0 +1,44 @@
+{
+  "name": "schooltemp",
+  "version": "1.0.0",
+  "description": "Record and visualize temperatures and related data points at our school",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clemens Bertram",
+  "license": "MIT",
+  "engines": {
+    "node": "0.12.7_1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "mean",
+    "express",
+    "angularjs",
+    "mongodb"
+  ],
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "compression": "^1.4.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^1.0.0",
+    "express": "^4.12.3",
+    "express-session": "^1.11.1",
+    "method-override": "^2.3.2",
+    "mongoose": "^4.0.1",
+    "morgan": "^1.5.2",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.9.4"
+  }
+}
